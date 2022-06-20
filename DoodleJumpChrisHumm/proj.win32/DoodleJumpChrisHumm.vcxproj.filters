@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world_objects">
+      <UniqueIdentifier>{521b18c2-41bb-423e-ac27-3c6a051f7784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="level">
+      <UniqueIdentifier>{90b8ab78-491f-4d90-8f1e-8ae98b19a9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{82369698-8417-4eae-8cb6-da011e044537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devNameLayer">
+      <UniqueIdentifier>{07798234-cfb8-43d9-a63a-d7513ef77667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{8ddd117d-d503-495c-9ea0-223bd29b1daa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\platformClass.cpp">
+      <Filter>world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\playerClass.cpp">
+      <Filter>world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\world_object.cpp">
+      <Filter>world_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\devNameLayer.cpp">
+      <Filter>devNameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\endLayer.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\endScene.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menuLayer.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menuScene.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\hudLayer.cpp">
+      <Filter>level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\levelLayer.cpp">
+      <Filter>level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\levelScene.cpp">
+      <Filter>level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\B2DebugDrawLayer.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLES-Render.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\platformClass.h">
+      <Filter>world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\playerClass.h">
+      <Filter>world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\world_object.h">
+      <Filter>world_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\devNameLayer.h">
+      <Filter>devNameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\endLayer.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\endScene.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menuLayer.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menuScene.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\hudLayer.h">
+      <Filter>level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\levelLayer.h">
+      <Filter>level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\levelScene.h">
+      <Filter>level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\B2DebugDrawLayer.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLES-Render.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
