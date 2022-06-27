@@ -1,4 +1,4 @@
-![alt text](https://github.com/chrishumm/DoodleJumper/blob/c96816b66c9fb5fed07c4e45a19752abdb49fe06/DoodleJumpChrisHumm/DoodleJumper.png)
+![DoodleJumpTitle](https://github.com/chrishumm/DoodleJumper/blob/c96816b66c9fb5fed07c4e45a19752abdb49fe06/DoodleJumpChrisHumm/DoodleJumper.png)
 
 # DoodleJumper
 
@@ -11,6 +11,10 @@ It is currently in an alpha state and is actively being developed as you read th
 - High-score tracking
 - Infinite Levels
 - Accelerometer based controls (Android Only)
+
+# Screenshots
+
+<img src="https://github.com/chrishumm/DoodleJumper/blob/6e77aaf0a87fd5be24084097a986496e15873392/DoodleJumpChrisHumm/DoodleJump@0,5x.png" width="400">
 
 # TODO
 
@@ -30,7 +34,7 @@ You can download the installer in the release section to play it on Windows (Arr
 
 - A C++ compiler (Either Visual Studio or Code::Blocks for Windows)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git/)
-- Cocos2dx 2.1.5 library 
+- [Cocos2dx 2.1.5 library](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cocos2d-x/cocos2d-x-2.1.5.zip)
 
 If using Visual Studio, you must first compile cocos2dx and add the project under the 'projects' folder. It currently works on 2.x versions of cocos2dx, but 2.1.5 is the most stable. 
 # Alpha Version
